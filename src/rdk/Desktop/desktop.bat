@@ -1,3 +1,2 @@
-@echo off
+cd TypeOs\src\rdk\Desktop\
 start Desktop.exe
-exit

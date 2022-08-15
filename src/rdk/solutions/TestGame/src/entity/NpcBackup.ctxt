@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=NpcBackup
+comment1.params=gp\ kh
+comment1.target=NpcBackup(src.main.GamePanel,\ src.main.keyHandler)
+comment2.params=
+comment2.target=void\ setDefaultValues()
+comment3.params=
+comment3.target=void\ update()
+comment4.params=g2
+comment4.target=void\ draw(java.awt.Graphics2D)
+numComments=5
