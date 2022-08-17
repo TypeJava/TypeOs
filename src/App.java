@@ -201,7 +201,7 @@ public class App {
                 }
             } else if (command.equals("TestGame")) {
                 if (beta == true) {
-
+                    print("Feture is broken. Sorry! :(");
                 } else {
                     print("This feature is not available in this version TypeOS. To use this feature is this 2.5.3 or higher please type the command: TypeOs then when it says Enter your command type: beta. Than Restart TypeOS when it says, Please restart type os. Then you can use this command. Thank you for using TypeOS!");
                 }
