@@ -1,18 +1,13 @@
 ## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ To get started. You will need java. The Version I already forgot lol.
+ Then, Download The TypeOs Porject. Do Not Run The export.jar! Create a file with these contents: [run.txt](https://github.com/TypeJava/TypeOs/files/9355463/run.txt)
+ Then, Save it as a bat file. Feel free to change it as much as you like.
+ The, Run It!
+## Commands
+flask: create a flask in the command line.
+[BETA] flaskoverflow: flask but with more fetures. Might need a bigger cpu/gpu.
+TypeOs: Opens a prompt for you to type system commands(Not Your os. TypeOs Comamnds). For example beta(Enabled beta fetures.).
+divide: divdes numbers. No ARGS!
+multiply: multplies number NO ARGS!
+subtract: Subrtacts numbers. NO ARGS
+Add or addition(I think. I don't check those. even though i made all of them lol.) Adds numbers. NO ARGS
