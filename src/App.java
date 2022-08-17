@@ -1,6 +1,6 @@
 
 //Made By Bio Shot\\
-package src;
+
 import java.util.Scanner;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -25,7 +25,7 @@ public class App {
     public static void bootloader() throws InterruptedException, IOException {
         print("Loaded bootloader");
         framework.System.hostDocs.createHost();
-        rdk.soluation.TestGame.main.Main();
+
         // Check if the beta.txt\\
         File Fbeta = new File("beta.txt");
         if (Fbeta.exists()) {
@@ -83,7 +83,7 @@ public class App {
     }
 
     public class os {
-        public static void Load() throws InterruptedException {
+        public static void Load() throws InterruptedException, IOException {
             print("Welcome to TypeOS! Please Enter Any Command to continue.");
             Scanner input = new Scanner(System.in);
             String command = input.next();
@@ -128,7 +128,7 @@ public class App {
 
             } else if (command.equals("desktop")) {
                 Process e;
-               e = Runtime.getRuntime().exec("\"TypeOs/src/rdk/Desktop/desktop.bat\"");
+                e = Runtime.getRuntime().exec("\"TypeOs/src/rdk/Desktop/desktop.bat\"");
                 try {
 
                     e = Runtime.getRuntime().exec("\"src/rdk/Desktop/desktop.bat\"");
@@ -199,13 +199,13 @@ public class App {
                 } else {
                     print("Invalid command");
                 }
-            } else if (command.equals("TestGame")){
-                if(beta == true){
-                  rdk.soluation.TestGame.main.Main();
-                }else{
+            } else if (command.equals("TestGame")) {
+                if (beta == true) {
+
+                } else {
                     print("This feature is not available in this version TypeOS. To use this feature is this 2.5.3 or higher please type the command: TypeOs then when it says Enter your command type: beta. Than Restart TypeOS when it says, Please restart type os. Then you can use this command. Thank you for using TypeOS!");
                 }
-            
+
             }
         }
     }
