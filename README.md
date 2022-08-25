@@ -5,9 +5,21 @@
  The, Run It!
 ## Commands
 flask: create a flask in the command line.
+
+
 [BETA] flaskoverflow: flask but with more fetures. Might need a bigger cpu/gpu.
+
+
 TypeOs: Opens a prompt for you to type system commands(Not Your os. TypeOs Comamnds). For example beta(Enabled beta fetures.).
+
+
 divide: divdes numbers. No ARGS!
+
+
 multiply: multplies number NO ARGS!
+
+
 subtract: Subrtacts numbers. NO ARGS
+
+
 Add or addition(I think. I don't check those. even though i made all of them lol.) Adds numbers. NO ARGS
